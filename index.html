@@ -41,7 +41,7 @@
 
       <!-- navabr content -->
         <nav class="md:container mx-auto">
-            <div class="navbar gap-6 bg-base-100">
+            <div class="navbar bg-base-100 gap-10">
                 <div class="navbar-start">
                   
                   <i class="fa-solid bg-arrow-color p-2 -rotate-45 rounded-full fa-arrow-right"></i>
@@ -56,31 +56,43 @@
                     <li class="hover:text-red-500 duration-300 font-normal"><a>Contact Us</a></li>
                     
                 </div>
-                <div class="navbar-end hidden lg:block    ">
-                    <i class="fa-solid rounded-full border border-[#E9E9E9] bg-[#FFFFFF] text-[#737373] p-2  fa-magnifying-glass"></i>
-                    <i class="fa-solid rounded-full border border-[#E9E9E9] bg-[#FFFFFF] text-[#737373] p-2 fa-cart-shopping"></i>
-                  <a class="btn  rounded-[32px] bg-arrow-color text-xl font-extrabold">Book Consult <i class="fa-solid text-white bg-[#1C1C1C] p-2 -rotate-45 rounded-full fa-arrow-right"></i></a>
+
+               
+
+
+                <div class="navbar-end lg:gap-4     ">
+                    <i class="fa-solid hidden lg:block rounded-full border border-[#E9E9E9] bg-[#FFFFFF] text-[#737373] p-2  fa-magnifying-glass"></i>
+                    <i class="fa-solid hidden lg:block rounded-full border border-[#E9E9E9] bg-[#FFFFFF] text-[#737373] p-2 fa-cart-shopping"></i>
+                  <a class="btn pt-2   rounded-[32px] hidden lg:block bg-arrow-color text-xl font-extrabold">Book Consult <i class="fa-solid text-white   bg-[#1C1C1C] p-2 text-[14px] -rotate-45 rounded-full fa-arrow-right"></i></a>
+
+                  <div class="dropdown hint: dropdown-left ">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden  ">
+                      <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            class="inline-block h-5 w-5 stroke-current">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M4 6h16M4 12h16M4 18h16"></path>
+                          </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu absolute  menu-sm dropdown-content bg-base-100 rounded-box  mt-3   shadow">
+                      <li><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
                 </div>
                 
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden navbar-end">
-                    
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          class="inline-block h-5 w-5 stroke-current">
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
-                      
-                      
-                        
-                      
-                </div>
                 
+              </div>
               </div>
         </nav>
         <!-- banner section conter -->
@@ -171,24 +183,24 @@
             <!-- card two  -->
 
             <div class="p-6 bg-[#EFDA6E]  rounded-2xl shadow-[#E7C1D3]">
-              <img class="text-5xl" src="assets/concept.png" alt="">
-              <h3 class="font-extrabold text-xl">Concept</h3>
+              <img class="text-5xl" src="assets/flow-chart.png" alt="">
+              <h3 class="font-extrabold text-xl">Design Process</h3>
               <p class="font-medium">The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
             </div>
 
             <!-- card three  -->
 
             <div class="p-6 bg-[#E7C1D3]  rounded-2xl shadow-[#E7C1D3]">
-              <img class="text-5xl" src="assets/concept.png" alt="">
-              <h3 class="font-extrabold text-xl">Concept</h3>
+              <img class="text-5xl" src="assets/vision.png" alt="">
+              <h3 class="font-extrabold text-xl">Supervision</h3>
               <p class="font-medium">The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
             </div>
 
             <!-- card four -->
 
             <div class="p-6 bg-[#E7C1D3]  rounded-2xl shadow-[#E7C1D3]">
-              <img class="text-5xl" src="assets/concept.png" alt="">
-              <h3 class="font-extrabold text-xl">Concept</h3>
+              <img class="text-5xl" src="assets/budget-planning.png" alt="">
+              <h3 class="font-extrabold text-xl">Budget Planning</h3>
               <p class="font-medium">The barn house captivates <br> with its blend of rustic charm <br> and modern.</p>
             </div>
            </div>
@@ -199,7 +211,7 @@
 
         <!-- main section four  design  -->
 
-        <section class="hidden">
+        <section>
           
             <div class="w-11/12 lg:container md:container mx-auto">
               <!-- text section -->
@@ -210,17 +222,17 @@
           <p class="font-medium text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
         </div>
         <!-- content section  -->
-        <div class="grid md:grid-cols-4  grid-cols-1 gap-6">
+        <div class="grid md:grid-cols-4  grid-cols-1 gap-6 mt-24">
           <!-- one content -->
-           <div class="col-span-3">
-            <div class="hero  rounded-2xl p-6  bg-[#FFFFFF] box-border drop-shadow-sm shadow-slate-50 border border-[#E9E9E9] ">
+           <div class="lg:col-span-3">
+            <div class="hero  rounded-2xl  bg-[#FFFFFF] box-border drop-shadow-sm shadow-slate-50 border border-[#E9E9E9] ">
               <div class="hero-content flex-col lg:flex-row">
                 <img
                   src="assets/img1.png"
-                  class=" rounded-lg shadow-2xl" />
+                  class="lg:max-w-64 w-full rounded-lg shadow-2xl" />
                 <div>
                   <h1 class="text-xl font-bold">Commercial</h1>
-                  <p class="py-6">
+                  <p class="">
                     The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of  rustic charm and modern .
                   </p>
                   <h2 class="text-xl font-bold">View Details <i class="fa-solid text-black text-[12px] bg-arrow-color p-[10px] -rotate-45 rounded-full fa-arrow-right"></i></h2>
@@ -229,22 +241,22 @@
             </div>
           </div>
           <!-- second  content -->
-          <div class="p-6  border border-[#E9E9E9] rounded-2xl">
-            <img src="assets/img2.png" alt="">
+          <div class="p-6 border border-[#E9E9E9] rounded-2xl">
+            <img class="w-full lg:h-[160px]" src="assets/img2.png" alt="">
           </div>
           
           
          
           <!-- thrid content  -->
           <div class="border border-[#E9E9E9] rounded-2xl p-6">
-            <img src="assets/img3.png" alt="">
+            <img class="w-full" src="assets/img3.png" alt="">
           </div>
           <!-- forid content-->
-          <div class="hero  col-span-2 rounded-2xl p-6  bg-[#FFFFFF] box-border drop-shadow-sm shadow-slate-50 border border-[#E9E9E9] ">
+          <div class="hero  lg:col-span-2 rounded-2xl  bg-[#FFFFFF] box-border drop-shadow-sm shadow-slate-50 border border-[#E9E9E9] ">
             <div class="hero-content flex-col lg:flex-row">
               <img
                 src="assets/img4.png"
-                class=" rounded-lg shadow-2xl" />
+                class="lg:w-64 w-full rounded-lg shadow-2xl" />
               <div>
                 <h1 class="text-xl font-bold">Commercial</h1>
                 <p class="py-6">
@@ -258,7 +270,7 @@
           <!-- fith content  -->
 
           <div class=" border border-[#E9E9E9] p-6 rounded-2xl">
-            <img src="assets/img5.png" alt="">
+            <img class=" w-full" src="assets/img5.png" alt="">
           </div>
             </div>
          
@@ -349,9 +361,55 @@
           </div>
         </section>
 
+        <!-- extra section  -->
+
+       
+        <section class="bg-base-200 lg:p-24">
+          <div class="w-11/12 lg:container md:container mx-auto">
+            <div class="">
+              <div class=" grid grid-cols-1 lg:grid-cols-2 gap-24">
+                <img
+                  src="assets/11.png"
+                  class="w-full rounded-lg shadow-2xl" />
+                <div >
+                  <div class="collapse  mb-6 collapse-arrow shadow-lg">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">What architectural elements contribute to the striking appearance of a barn house?</div>
+                    <div class="collapse-content">
+                      <p>The barn house's striking appearance is often due to its large, open spaces, exposed wooden beams, high ceilings, and a combination of traditional and modern materials like wood, metal, and glass.</p>
+                    </div>
+                  </div>
+                  <div class="collapse mb-6 collapse-arrow shadow-lg">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">How does the roof design impact the overall look of a barn house?</div>
+                    <div class="collapse-content">
+                      <p>The steep, pitched roof of a barn house not only adds to its rustic charm but also enhances its visual impact by creating a dramatic, towering silhouette that stands out against the landscape.</p>
+                    </div>
+                  </div>
+                  <div class="collapse mb-5 collapse-arrow shadow-lg">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">Why are large windows a common feature in barn house designs?</div>
+                    <div class="collapse-content">
+                      <p> Large windows are common in barn house designs because they allow natural light to flood the interior, emphasizing the spaciousness and bringing attention to the open floor plan, while also creating a seamless connection between the indoors and the surrounding environment.</p>
+                    </div>
+                  </div>
+                  <div class="collapse mb-8 collapse-arrow shadow-lg">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">What role do materials play in the aesthetic of a barn house?</div>
+                    <div class="collapse-content">
+                      <p>Materials play a crucial role in the aesthetic of a barn house. The use of reclaimed wood, stone, and metal creates a rustic yet contemporary feel, blending the charm of traditional barn structures with modern design elements.</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <!-- main section sixth  -->
 
-        <section style="background-image: url(assets/bg.jpg);" class="lg:p-24 pt-24">
+        <section style="background-image: url(assets/bg.jpg);" class="lg:p-24 bg-cover pt-24">
           <!-- container -->
           <div class="w-11/12 lg:container md:container mx-auto">
             <!-- text content  -->
@@ -389,7 +447,7 @@
                       <p class="text-[#737373] font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
                     </div>
                     <div class="text-[#E9E9E9] grid lg:grid-flow-col lg:gap-0 gap-8 mb-8"><a class="link link-hover ">Home</a>
-                      <a class="link link-hover">Service</a>
+                      <a class="link link-hover ">Service</a>
                       <a class="link link-hover ">Portfolio</a>
                       <a class="link link-hover ">Press kit</a>
                     
